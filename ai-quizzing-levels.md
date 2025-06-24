@@ -7,9 +7,9 @@ Typically it's difficult to train this. You gradually build this up on the job b
 Let's take a look at how ChatGPT reasons the junior/mid/senior levels. 
 
 ## User Prompt
-<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de; overflow: hidden;">
+```quote
 Create a sample scenario where a PO suggests a feature and list out how a junior/mid/senior would answer these. Also include the reasoning as to why it's junior/mid/senior
-</pre>
+```
 
 ### AI Response
 <pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
