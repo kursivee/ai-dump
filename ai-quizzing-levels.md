@@ -7,12 +7,12 @@ Typically it's difficult to train this. You gradually build this up on the job b
 Let's take a look at how ChatGPT reasons the junior/mid/senior levels. 
 
 ## User Prompt
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Create a sample scenario where a PO suggests a feature and list out how a junior/mid/senior would answer these. Also include the reasoning as to why it's junior/mid/senior
-```
+</pre>
 
 ### AI Response
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 🧪 Scenario: Feature Suggestion from Product Owner
 
     PO:
@@ -72,14 +72,14 @@ Create a sample scenario where a PO suggests a feature and list out how a junior
     Uses questions to align with business goals—not just implementation clarity
 
     Doesn’t just ask “what do you want?”—asks “why do we want this now?”
-```
+</pre>
 
 The lines between junior/mid/senior get blurry at the boundaries but I think with this response it's enough to say that ChatGPT has a good enough baseline to trust somewhat. Nothing in the response stood out to me as just wrong. The one thing to be aware of though is that just because you're strong in one category doesn't mean your in the next level. Like if you are bringing in cross functional concerns but are still mid at clarifying scope then you're still probably still mid. You need to be strong in a lot of categories to move up. This is a side note but don't get caught up in categorizing these skills either. I've seen people try to improve skills in isolation but it doesn't work out because being "better" requires knowing how to use those skills cohesively. Like don't just study how to point out security issues. Learn how to point out issues because a lot of issues are common across domains it's just the details that shift.
 
 So let's see if ChatGPT can run a simluation on gauging my level based on my questioning. We're creating a PO feature request scenario again.
 
 ## AI Question 1
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 🎭 You’re the Developer. I’m the PO.
 
     PO:
@@ -90,15 +90,15 @@ So let's see if ChatGPT can run a simluation on gauging my level based on my que
 Your turn. Respond however you'd like—as if you're a dev on the team. You can ask questions, propose an approach, push back, or anything else.
 
 Once you respond, I’ll give structured feedback on whether your reasoning aligns with junior, mid, or senior level thinking—and why.
-```
+</pre>
 
 ## User Response 1
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Sure. Does any of the analytics data indicate why they're hesitating? I know you said not quite ready but can you shed some light on what that means? I wanna make sure that "Save for later" would actually be used. I'm worried about a situation where we create "save for later" and it adds stuff that just sits there forever or its never used at all. Also how often is this happening?
-```
+</pre>
 
 ## AI Response 1
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 🔥 Great response. Let’s evaluate this step-by-step.
 🧠 Your Response:
 
@@ -141,40 +141,40 @@ In short, you're one or two questions away from a senior-level diagnostic sweep,
 🏷️ Final Verdict:
 
 Mid+ level — strong ownership and product instincts, nearly senior. Keep asking “why now?” and “how does this fit with everything else?” and you’re solidly there.
-```
+</pre>
 
 For context, I'm a senior dev. But this thing flagged me as mid. So it's trash at gauging. JK... No let's breakdown what happened cause there's a lesson in contextual awareness here. Although ChatGPT understood the premise of what I was doing, we didn't contextually align on how. ChatGPT expected the user to be senior level in one prompt, that means ask every question a senior would at once. I took it as, let's start a dialogue. I'll ask a starting question that's most relevant to me and we'll go from there. This is why you gotta really be careful with AI and not just trust it. Cause nothing it said was wrong, but the mechanism of how it was executed was wrong. ChatGPT should have recognized that humans don't have conversations in one shot and conducted the experiment accordingly. But it didn't. And I should have known that ChatGPT doesn't understand human conversations like I do and improved the initial prompt. But I didn't. That's ok though because now we know. We're now contextually aware that AI is not some super intelligence (yet) and that it's still got a long way to go. That means I can't just turn my brain off when talking to this thing. I gotta check it every now and then. 
 
 Ok so I clarified the ask a bit and continued the assessment. Let's see where I end up now. We're picking up as if it were responding to my first set of questions.
 
 ### AI response 1
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Yeah, fair question. From what we’ve seen in session recordings, users often remove an item and then scroll around a bit more, sometimes even re-adding it. We’ve had a few support tickets where people asked if there was a way to save something without buying it now.
 
 We haven’t run a formal study on it or anything, so I don’t have exact usage stats. But it seems like a recurring theme in feedback over the last couple quarters. It’s come up enough that I figured it might be worth exploring.
-```
+</pre>
 
 ### User response 2
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Makes sense. Can we do a formal study on it? Seems important enough if it's a reoccurring theme. And by we I mean "not the dev team". Feels like this falls more on business requirement gathering at the moment.
-```
+</pre>
 
 ### AI response 2
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 That’s fair. I think we could do something lightweight—maybe a quick survey or check with UX to run a user test. But that might delay the feature a bit.
 
 Do you think it’s worth holding off implementation entirely until we have that? Or could we do a quick version and iterate later?
-```
+</pre>
 
 ### User response 3
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Yeah it boils down to demand but I don't have the data to determine that. I can tell you that we can do a quick version and iterate. Depending on how much risk we wanna take we can deploy to all users or we can set something up where only a certain subset of users get the feature. From my perspective, there does seem to be enough demand to go ahead and put something in. It's also a secondary flow, meaning not every one is going to use it so that mitigates some of the risk. My preference though is to wait for a more formal assessment but that's just a personality thing. If business wants us to push forward I wouldn't be opposed. 
-```
+</pre>
 
 At this point, ChatGPT terminated the experiement and just gave me an evaluation.
 
 ### AI response 3
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 🧠 Round-by-Round Evaluation
 ✅ Round 1: You Asked
 
@@ -235,17 +235,17 @@ You’ve shown senior-level contextual awareness through:
     Staying product-aware without overstepping
 
 This is the kind of reasoning AI could evaluate if it's trained to look not just for "smart answers," but for conversational leadership.
-```
+</pre>
 
 Yay got senior. Now here's where I feel a bunch of people get caught up. They get the happy result and stop here. But notice how ChatGPT didn't tell me where I screwed up or how I can improve. I think that's cause ChatGPT is built to be more positive so we gotta override that. We need ChatGPT to tell us what it thinks our weak points are and how we can improve because that's just as important.
 
 ### User Response 4
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Can you list out some strengths to my approach? List some obvious ones and subtle ones if they exist. Also do the same with weaknesses.
-```
+</pre>
 
 ### AI Response 4 (Strengths)
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 🔹 Obvious Strengths
 
     Validates Assumptions
@@ -289,10 +289,10 @@ Can you list out some strengths to my approach? List some obvious ones and subtl
     Anticipates Feature Decay
 
         Mentioning the potential of items “just sitting there forever” shows foresight around feature lifecycle and product debt, which juniors/mids rarely account for.
-```
+</pre>
 
 ### AI Response 4 (Weaknesses)
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 🔹 Obvious Weaknesses
 
     Lack of Concrete Recommendation
@@ -320,7 +320,7 @@ Can you list out some strengths to my approach? List some obvious ones and subtl
     No Explicit Timeline Framing
 
         You didn’t ask “how soon do we need this?” or “do we have space in this sprint?” which would help position the risk of delay vs value more concretely.
-```
+</pre>
 
 I mean I agree with most of these. In fact the 1st major weakness I've indentifed myself. I don't like answering yes or no because there are 100000 other edge cases that will sway me one way or the other. It's not that I can't it's that I usually default to leaving it open ended. Luckily for me, I'm in an env where that's acceptable because our team dynamic is around the entire team agreeing. But if that changed, I would definetly need to work on giving more concrete recommendations. So far so good with ChatGPT
 
@@ -328,15 +328,15 @@ But why stop there? I don't agree with #2 being an obvious weakness. I'm talking
 
 
 ### User Prompt 5
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 I agree with most of these but I'm challenging #2 obvious weakness "No Explicit Technical Framing Yet". The conversation is with a PO. So 2 things come up for me. 1 we haven't closed the loop on confirming what the overall solution is going to be. So bringing in technical implementation might be a bit too soon. 2, it's a PO. PO doesn't really need to know the engineering implications. That's a conversation with me and the dev team or architect which from my understanding are not part of this conversation. It's not that I wouldn't bring them up though, it's that in this line of conversation I would argue that there was no need to. Now if the PO asked me for an estimate then it might have come up. 
 
 Don't just accept my answer. I want to see you reason through it. Challenge it and see if your assessment still holds. If it doesn't then accept my response. If it does then challenge me back.
-```
+</pre>
 Important Note: I had to reprompt with that 2nd part of not just accepting my answer. Becuase I'm **contextually aware** that AI has a tendency to just concede when challenged, I have to explicitly tell it not to. I'm asking it to provide reasoning so that at the very least I can check if it matches its result.
 
 ### AI Prompt 5
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 ⚖️ Argument For It Being a Weakness (Original Reasoning)
 
     Senior engineers are expected to pre-empt downstream blockers.
@@ -404,6 +404,6 @@ Your challenge holds. It was not a weakness given the pacing and audience, but i
 
 You made a reasoned tradeoff, not a blind omission.
 I withdraw the original critique. 🧠
-```
+</pre>
 
 Again I agree with its reasoning and it goes along a point I brought up earlier. My style is an advantage because of my environment. ChatGPT correctly calls out that although what I'm saying is true, it would be a weakness in a different context. And that's what it's all about, **contextual awareness**. You not only have to learn different techniques, you have to learn when to apply them. You can't just consider the technical aspects, you have to consider the people aspect as well. It's hard, it's annoying, and it's not what most devs sign up for. But hey next time your manager tells you why you can't get a promotion, this is probably what they're talking about.

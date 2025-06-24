@@ -3,7 +3,7 @@
 This came up studying for the AWS AI practitioner cert test. Regular practice quizes and tests give you a prompt and you provide an answer. But there is no mechanism to verify your reasoning. What if we can use AI to validate your reasoning? Here's a flow I went through to test
 
 ## AI Question 1
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Question 1 – AI & ML Fundamentals (Multiple Choice)
 
 Which of the following best defines machine learning?
@@ -14,17 +14,17 @@ C. A method of data analysis that automates model building by learning from data
 D. A type of artificial intelligence that mimics human consciousness
 
 Respond with A, B, C, or D (and feel free to add any reasoning if you want).
-```
+</pre>
 
 ### User Correct Answer 1
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 C
 
 D is an immediate no due to the consciousness claims. A seems like a potential choice but machine learning is more like a methodology than a system. B I ruled out because of "pre-defined logic". I think you could argue that it is rule-based just not known rules but pre-defined logic isn't a thing. The logic is created in machine learning.
-```
+</pre>
 
 ### AI Response 1
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Excellent reasoning — and C is correct. ✅
 
 Your breakdown shows you already:
@@ -36,10 +36,10 @@ Your breakdown shows you already:
     Know the difference between explicit rules and learned patterns.
 
 You're already demonstrating above-baseline comprehension for this domain.
-```
+</pre>
 
 ## AI Question 2
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 Question 2 – Generative AI (Scenario-Based)
 
 A media company wants to automatically generate product descriptions from product specs and prior examples. They want high-quality natural language but don’t want to train a model from scratch.
@@ -51,15 +51,15 @@ C. Amazon Bedrock
 D. Amazon Comprehend
 
 Let’s see how you navigate product selection.
-```
+</pre>
 
 ### User Correct Answer 2
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 I'm only slightly familiar with Bedrock and SageMaker. Bedrock is more like a broad build it from scratch type service from my understanding. I'm not sure what SageMaker does but I know at work a lot of data analyst use it. I don't know what the other two are. I'm going to guess B Amazon Rekognition purely because of the name.
-```
+</pre>
 
 ### AI Response 2
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 That’s a great breakdown — even if the final guess was off, your process of elimination was solid, and this helps me gauge your current product knowledge.
 📌 Correct Answer: C. Amazon Bedrock ✅
 Breakdown:
@@ -77,7 +77,7 @@ You're 1-for-2 so far. Based on your response:
     You have some AWS exposure, especially around real-world team usage (SageMaker).
 
     You’re still building familiarity with specific use cases and naming logic in AWS AI services.
-```
+</pre>
 
 ## Retrospective
 
@@ -85,7 +85,7 @@ I ended up going through 18 questions of varying types (multiple choice, free re
 
 Here's a snippet of the response
 
-```
+<pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 ⚠️ Current Weaknesses in AI Practitioner Cert Prep
 
     Limited familiarity with AWS service boundaries
@@ -102,7 +102,7 @@ Here's a snippet of the response
 
     Need for more pattern recognition on AWS service pairings
     Some services (e.g., Lex + Lambda, Bedrock + RAG, Comprehend + Translate) are frequently paired in exam scenarios. You’ll benefit from more exposure to these combinations through case studies or flashcards.
-```
+</pre>
 
 I think overall it was a helpful response and at the very least gave me some areas to focus on.
 
