@@ -7,11 +7,12 @@ Typically it's difficult to train this. You gradually build this up on the job b
 Let's take a look at how ChatGPT reasons the junior/mid/senior levels. 
 
 ## User Prompt
-```quote
+```
 Create a sample scenario where a PO suggests a feature and list out how a junior/mid/senior would answer these. Also include the reasoning as to why it's junior/mid/senior
 ```
 
 ### AI Response
+<div style="white-space: pre-wrap; word-wrap: break-word;">
 <pre style="white-space:pre-wrap; word-wrap:break-word; padding:1em; border-radius:5px; border:1px solid #d0d7de;">
 🧪 Scenario: Feature Suggestion from Product Owner
 
@@ -73,6 +74,7 @@ Create a sample scenario where a PO suggests a feature and list out how a junior
 
     Doesn’t just ask “what do you want?”—asks “why do we want this now?”
 </pre>
+</div>
 
 The lines between junior/mid/senior get blurry at the boundaries but I think with this response it's enough to say that ChatGPT has a good enough baseline to trust somewhat. Nothing in the response stood out to me as just wrong. The one thing to be aware of though is that just because you're strong in one category doesn't mean your in the next level. Like if you are bringing in cross functional concerns but are still mid at clarifying scope then you're still probably still mid. You need to be strong in a lot of categories to move up. This is a side note but don't get caught up in categorizing these skills either. I've seen people try to improve skills in isolation but it doesn't work out because being "better" requires knowing how to use those skills cohesively. Like don't just study how to point out security issues. Learn how to point out issues because a lot of issues are common across domains it's just the details that shift.
 
